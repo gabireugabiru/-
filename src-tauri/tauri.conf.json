@@ -1,6 +1,6 @@
 {
-  "productName": "nihon",
-  "version": "0.0.1",
+  "productName": "robinson",
+  "version": "0.0.2",
   "identifier": "com.jesus.pog.pog.met",
   "build": {
     "beforeDevCommand": "trunk serve",
@@ -12,7 +12,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "nihon",
+        "title": "robinson",
         "width": 800,
         "height": 600
       }
@@ -22,6 +22,9 @@
     }
   },
   "bundle": {
+    "category": "Education",
+    "shortDescription": "Is the best way not to learn Kanji",
+    "longDescription": "Is the way for you if you wanna pretend like you're learning but you really aren't",
     "active": true,
     "targets": "all",
     "icon": [

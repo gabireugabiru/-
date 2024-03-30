@@ -46,12 +46,21 @@ header.main_header>div>a {
   background: rgb(230, 229, 229);
 }
 
-header.main_header>div>a:last-child>svg {
+header.main_header>div>a:nth-child(2)>svg {
   width: 30px;
   height: 30px;
   padding: 0;
 
   /* padding: 11.5px 0; */
+}
+header.main_header>div>span {
+  height: 35px;
+  border: 1px solid rgb(207, 206, 206);
+  background: rgb(230, 229, 229);
+  border-radius: 4px;
+  padding: 0 8px;
+  display: grid;
+  place-items: center;
 }
 
 section.empty_reviews {

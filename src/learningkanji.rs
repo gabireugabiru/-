@@ -548,7 +548,9 @@ where
                     })}
                 </span>
             </form>
-            <button class="next" on:click=move |_| go_to_next()>
+            <button class="next" on:click=move |_| if answer_status.get().is_some() {
+                go_to_next()
+            }>
                 next
             </button>
             {move || answer_status.get().map(|status| {
