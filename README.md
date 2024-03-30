@@ -1,7 +1,8 @@
-# Tauri + Leptos
+# A little project I made using a taurus with leptospirosis
 
-This template should help get you started developing with Tauri and Leptos.
+This project uses the levels from wanikani and jisho for the meanings. Only the public available.
 
-## Recommended IDE Setup
+This was made in an attempt to make a offline way to learn kanji in my spare time
 
-[VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+From: me
+For: Me with capital M

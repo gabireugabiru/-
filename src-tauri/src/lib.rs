@@ -110,11 +110,11 @@ pub fn run() {
         .setup(|app| {
             let mut radicals = HashMap::new();
             let levels: HashMap<usize, File> =
-                serde_json::from_str(include_str!("../blob.json")).expect("invalid file");
+                serde_json::from_str(include_str!("../levels.json")).expect("invalid file");
             let res: HashMap<String, Character> =
                 serde_json::from_str(include_str!("../kanjis.json")).expect("invalid file");
             let vocabs: HashMap<String, VocabHash> =
-                serde_json::from_str(include_str!("../teste.json")).expect("invalid file");
+                serde_json::from_str(include_str!("../vocabulary.json")).expect("invalid file");
             for (level, file) in &levels {
                 for radical in &file.radicals {
                     radicals.insert(
